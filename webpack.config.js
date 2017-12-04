@@ -27,14 +27,10 @@ module.exports = function (env) {
                     'ts-loader?' + JSON.stringify({
                         configFile: 'tsconfig.spec.json'
                     }),
-                ],
-
-                exclude: /node_modules[\/\\](?!(rutile-.*)|(zone.js)).*$/
+                ]
             }, {
                 test: /\.jsx?$/,
-                use: ['babel-loader'],
-
-                exclude: /node_modules[\/\\](?!(rutile-.*)|(zone.js)).*$/
+                use: ['babel-loader']
             }, {
                 enforce: 'pre',
                 test: /\.[tj]sx?$/,

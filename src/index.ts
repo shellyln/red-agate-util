@@ -9,9 +9,12 @@ export * from './convert/QueryString';
 export * from './convert/TextEncoding';
 export * from './convert/WordWrap';
 
+export * from './io/BitStream';
 export * from './io/FileFetcher';
 export * from './io/FileSaver';
 export * from './io/Html5FileFetcher';
 export * from './io/Logger';
 export * from './io/Uri';
+
+export * from './types/Integer53';
 
