@@ -17,4 +17,5 @@ export * from './io/Logger';
 export * from './io/Uri';
 
 export * from './types/Integer53';
+export * from './types/WritableArrayLike';
 
