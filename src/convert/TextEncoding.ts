@@ -1,3 +1,19 @@
+// src/convert/TextEncoding.ts#__encodeToUtf8Impl
+//
+// Original Author:
+// http://qiita.com/ukyo/items/1626defd020b2157e6bf
+// (c) 2012 ukyo (http://qiita.com/ukyo, https://ukyoweb.com)
+
+// src/convert/TextEncoding.ts#__decodeUtf8Impl
+//
+// Original Author:
+// http://www.onicos.com/staff/iz/amuse/javascript/expert/utf.txt
+// utf.js - UTF-8 <=> UTF-16 convertion
+// Copyright (C) 1999 Masanao Izumo <iz@onicos.co.jp>
+// Version: 1.0
+// LastModified: Dec 25 1999
+// This library is free.  You can redistribute it and/or modify it.
+
 // Copyright (c) 2017, Shellyl_N and Authors
 // license: ISC
 // https://github.com/shellyln
@@ -71,7 +87,7 @@ export class TextEncoding {
 
     private static __encodeToUtf8Impl(str: string): Uint8Array {
 
-        // Original source is:
+        // Original Author:
         // http://qiita.com/ukyo/items/1626defd020b2157e6bf
         // (c) 2012 ukyo (http://qiita.com/ukyo, https://ukyoweb.com)
 
@@ -123,7 +139,7 @@ export class TextEncoding {
 
     private static __decodeUtf8Impl(buf: ArrayLike<number>): string {
 
-        // Original source is:
+        // Original Author:
         // http://www.onicos.com/staff/iz/amuse/javascript/expert/utf.txt
         // utf.js - UTF-8 <=> UTF-16 convertion
         // Copyright (C) 1999 Masanao Izumo <iz@onicos.co.jp>
