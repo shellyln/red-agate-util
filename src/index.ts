@@ -9,6 +9,8 @@ export * from './convert/QueryString';
 export * from './convert/TextEncoding';
 export * from './convert/WordWrap';
 
+export * from './imaging/Bitmap';
+
 export * from './io/BitStream';
 export * from './io/FileFetcher';
 export * from './io/FileSaver';
@@ -18,4 +20,3 @@ export * from './io/Uri';
 
 export * from './types/Integer53';
 export * from './types/WritableArrayLike';
-
