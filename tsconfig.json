@@ -24,7 +24,7 @@
         // "traceResolution": true,
         "types": ["node", "jasmine"],
         "jsx": "react",
-        "jsxFactory": "Rutile.createElement"
+        "jsxFactory": "RedAgate.createElement"
     },
     "include": [
         "src/**/*"
